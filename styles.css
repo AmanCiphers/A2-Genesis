@@ -195,7 +195,46 @@ body{
     margin: 5% auto 5% auto;
 }
 
-.services li{
+.services h3{
+    
+    font-size: 35px;
+    margin: 10px auto 10px auto;
+}
+
+.services h3::after{
+    content: '';
+    width:0%;
+    height: 2px;
+    background-color: aqua;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.services h3:hover::after{
+    width:100%;
+}
+
+.services .li{
+    width:70vw;
+    margin: auto;
     font-size: 24px;
-    margin-top: 20px;
+    margin-top: 90px;
+    /* background-color: antiquewhite; */
+    border-radius: 20px;
+    box-shadow: 0.1px 0.1px 50px;
+    padding: 20px;
+    z-index:1
+}
+
+.services .li:first-of-type{
+    margin-top: 100px;
+}
+
+.servicesimg{
+    border-radius: 20px;
+    margin-top: 3rem;
+    scale: 1rem;
+    width:50%;
+    height:30%;
 }
