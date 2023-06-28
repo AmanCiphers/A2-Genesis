@@ -46,7 +46,7 @@
    .headlogo .fa{
         display: block;
         color:rgb(0, 0, 0);
-        /* margin: 20px; */
+        /* donemargin: 20px; */
         font-size: 24px;
         cursor: pointer;
    }
