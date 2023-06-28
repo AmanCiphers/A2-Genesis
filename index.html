@@ -22,15 +22,17 @@
 </head>
 <body>
     
-    <section class="conatiner">
+    <section class="container">
         <section class="top">
             <div class="headlogo">
                 <img src="./images/bg logo.png" alt="logo">
                 
             </div>
             <div >
-            <nav id="navbar">
-                <i class="fa fa-times" onclick="hidemenu()"></i>
+            <nav>
+                <!-- <i class="fa fa-bars menu" onclick="openMenu()"></i> -->
+                <div id="navbar">
+                <!-- <i class="fa fa-times" onclick="closeMenu()"></i> -->
                 <ul>
                     <li><a class="nav-link" href="index.html">Home</a></li>
                     <li><a class="nav-link" href="#aboutus">About Us</a></li>
@@ -38,6 +40,8 @@
                     <li><a class="nav-link" href="team.html">Our Team</a></li>
                     <li><a class="nav-link" href="contact.html">Contact Us</a></li>
                 </ul>
+                </div>
+                
             </nav>
             </div>
         </section>
@@ -59,6 +63,16 @@
 
         
     </section>
-
 </body>
+<!-- <script>
+    var navLinks = document.getElementById("navbar");
+
+    function openMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function closeMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script> -->
 </html>

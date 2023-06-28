@@ -13,9 +13,7 @@ font-family: 'Poppins', sans-serif;*/
     font-family: 'Poppins', sans-serif;
 }
 
-#navbar .fa-times{
-    display: none;
-}
+
 html{
     background-color: rgb(182, 176, 176);
 }
@@ -81,7 +79,6 @@ body{
 
 /* home */
 .home{
-    /* margin-top: 10vh; */
     text-align: center;
     
 }
@@ -138,7 +135,7 @@ body{
     bottom: 850px;
     left: 400px;
     box-shadow: 20px 30px 100px black;
-    /* border-radius: 5px; */
+    
 }
 
 
@@ -203,7 +200,7 @@ body{
     margin: auto;
     font-size: 24px;
     margin-top: 90px;
-    /* background-color: antiquewhite; */
+    
     border-radius: 20px;
     box-shadow: 0.1px 0.1px 50px;
     padding: 20px;
