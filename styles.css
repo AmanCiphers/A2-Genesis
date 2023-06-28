@@ -2,20 +2,20 @@
 font-family: 'Playfair Display', serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
-font-family: 'Tilt Prism', cursive; */
-
-@font-face {
-    font-family: midorima;
-    src:local("C:\Users\Amana\OneDrive\Documents\free code camp\A2 Genesis\fonts\Midorima-PersonalUse-Regular.ttf");
-}
+font-family: 'Tilt Prism', cursive; 
+font-family: 'Poppins', sans-serif;*/
 
 *{
     margin: 0;
     padding: 0;
     /* border: 1px solid; */
     color: black;
+    font-family: 'Poppins', sans-serif;
 }
 
+#navbar .fa-times{
+    display: none;
+}
 html{
     background-color: rgb(182, 176, 176);
 }
@@ -42,11 +42,7 @@ body{
     text-align: center;
 }
 
-#logo{
-    font-size: 50px;
-    font-weight: 300;
-    font-family: 'Tilt Prism', cursive;
-}
+
 
 .headlogo{
     display: flex;
@@ -84,8 +80,8 @@ body{
 
 
 /* home */
-#home{
-    margin-top: 5%;
+.home{
+    /* margin-top: 10vh; */
     text-align: center;
     
 }
@@ -101,15 +97,15 @@ body{
     margin: auto;
 }
 
-#home h2{
+.home h2{
     font-size: 30px;
 }
 
-#home h1{
+.home h1{
     font-size: 60px;
 }
 
-#home hr{
+.home hr{
     max-width: 50%;
     margin: auto;
     margin-top: 1vh;
@@ -127,49 +123,36 @@ body{
 
 
 /* aboutus */
-#aboutus{
-    margin-top: 10%;
+.aboutus{
+    margin-bottom: 50px;
+    margin-top: 15vh;
     width: 60%;
 }
 
-.luffy{
-    width:200px;
-    height: 200px;
-    scale: 0.4;
-    position: relative;
-    left: 60%;
-    top: 250px;
-    margin-top: -10%;
-}
+
 
 .luffyimg{
+    scale: 0.4;
+    margin: auto auto auto 25vw;
     position: relative;
-    bottom: -100px;
+    bottom: 850px;
     left: 400px;
     box-shadow: 20px 30px 100px black;
-    /* border-radius: 50px; */
+    /* border-radius: 5px; */
 }
-/* .luffybg{
-    position: relative;
-    left:600px;
-    background-color: black;
-    height: 1200px;
-    width:800px;
-    border-radius: 20px;
-    box-shadow: 50px 50px 100px white;
-} */
 
-#aboutus p{
+
+.aboutus p{
     font-size: 24px;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: monospace
+    font-family: 'Poppins', sans-serif;
   
 }
-#aboutus h1{
+.aboutus h1{
     text-align: center;
     font-size: 45px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppins', sans-serif;
 }
 /* about us */
 
@@ -180,7 +163,7 @@ body{
 /* servicees */
 .services{
     margin-top: 10%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 200px;
 }
 
