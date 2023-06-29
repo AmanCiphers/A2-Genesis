@@ -92,4 +92,10 @@
     .aboutus p{
         font-size: 20px;
     }
+
+    .services{
+        margin-top: -270%;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 200px;
+    }
 }
