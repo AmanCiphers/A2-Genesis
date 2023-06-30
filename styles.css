@@ -212,9 +212,13 @@ a{
     font-size: 24px;
     margin-top: 90px;
     border-radius: 20px;
-    box-shadow: 0.1px 0.1px 50px;
+    box-shadow: 0.1px 0.1px 30px ;
     padding: 20px;
     z-index:1
+}
+
+.services .li:hover{
+    box-shadow: 0.1px 0.1px 30px white;
 }
 
 .services .li .btn{
@@ -223,7 +227,7 @@ a{
     bottom: 25px;
 }
 
-.services .li .btn h1{
+.services .li .btn{
     color: white;
     font-size: 24px;
     background: black;
@@ -236,13 +240,13 @@ a{
     color:white;
 }
 
-.services .li .btn a:hover{
+.services .li a:hover{
     color:black;
 }
 
-.services .li .btn h1:hover{
+.services .li .btn:hover{
     color: black;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .services .li:first-of-type{

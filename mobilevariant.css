@@ -98,4 +98,55 @@
         font-family: 'Poppins', sans-serif;
         margin-bottom: 200px;
     }
+
+
+    .services .li{
+        display: flex;
+        width:90%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services .li .btn a{
+        font-size: 20px;
+    }
+
+    .services .li h3{
+        margin-bottom: 10%;
+    }
+    .services .li .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services .li .btn{
+        color: white;
+        font-size: 20px;
+        background: black;
+        border-radius: 10px;
+        width:50%;
+        text-align: center;
+        position: relative;
+        left: 10px;
+        top: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .services .li .vfx{
+        font-size: 30px;
+        font-weight: 1500;
+    }
+
+    .services .li .f{
+        top:90px
+    }
+}
+
+
+@media (max-width:661) {
+    .services{
+        margin-top: -199%;
+    }
 }
