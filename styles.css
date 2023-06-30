@@ -24,6 +24,7 @@ html{
 a{
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
 }
 #navbar ul li{
     list-style: none;
@@ -52,12 +53,13 @@ a{
 }
 .headlogo img{
     position: relative;
-    top: -4vh;
+    top: -1vh;
     left:50%;
-    scale: 3;
+    scale: 2;
     width:10vw;
     padding: 0; 
     margin: 0;
+    margin-bottom: 100px;
 }
 #navbar ul{
     font-size: 24px;
@@ -178,7 +180,8 @@ a{
 .services h2{
     font-size: 30px;
     text-align: center;
-    margin: 5% auto 5% auto;
+    margin: 2% auto 2% auto;
+    width: 60%;
 }
 
 .services h3{

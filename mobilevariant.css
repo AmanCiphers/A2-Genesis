@@ -4,12 +4,13 @@
     }
 
     .headlogo{
-        height: 300px;
+        margin-top: 50px;
+        margin-bottom: 70px;
     }
     .headlogo img{
         top: -5vh;
         left:0;
-        scale: 1.3;
+        scale: 0.9;
         padding: 0; 
         margin: 0;
     }
@@ -99,6 +100,14 @@
         margin-bottom: 200px;
     }
 
+    .services h1{
+        font-size: 45px;
+    }
+    .services h2{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: -30px;
+    }
 
     .services .li{
         display: flex;
@@ -144,9 +153,3 @@
     }
 }
 
-
-@media (max-width:661) {
-    .services{
-        margin-top: -199%;
-    }
-}

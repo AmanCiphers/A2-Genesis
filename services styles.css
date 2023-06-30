@@ -17,26 +17,32 @@ html{
 
 .headlogo{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: -50px;
 }
 .headlogo img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width:500px;
-    height:400px;
+    scale: 0.4;
+    /* width:10vw; */
+    padding: 0; 
+    margin: auto;
+    margin-top: -50px;
+    margin-bottom: -50px;
 }
 
 a{
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
 }
 
-
-
+.home h2{
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0.1px 0.1px 20px;
+    z-index: 99;
+}
 
 .services h1{
     font-size: 64px;
@@ -62,11 +68,10 @@ a{
     margin: auto;
     font-size: 24px;
     margin-top: 90px;
-    
     border-radius: 20px;
-    box-shadow: 0.1px 0.1px 50px;
+    box-shadow: 0.1px 0.1px 30px;
     padding: 20px;
-    z-index:1
+    z-index:1;
 }
 
 .services .li:first-of-type{
@@ -79,4 +84,45 @@ a{
     scale: 1rem;
     width:50%;
     height:30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:700px){
+    .home h2{
+        width: 70%;
+    }
+
+    .headlogo{
+        margin: 0;
+        margin-left: -115%;
+        margin-top: -50px;
+        margin-bottom: -20px;
+    }
+
+    .headlogo img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        scale: 0.3;
+        padding: 0; 
+        margin: auto;
+        margin-top: -50px;
+        margin-bottom: -50px;
+    }
 }
