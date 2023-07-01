@@ -49,13 +49,16 @@
     justify-content: center;
     align-items: center;
     bottom: 100px;
-    background: #5e5656;
+    background: transparent;
     margin-top:50px;
     box-shadow: 0px 0px 20px;
    }
 
    
-
+   .bg img{
+    width: auto;
+    object-fit: contain;
+   }
    .headlogo .fa{
         display: block;
         color:rgb(0, 0, 0);
@@ -110,6 +113,7 @@
         font-size: 20px;
         margin-top: 20px;
         margin-bottom: -30px;
+        width: auto;
     }
 
     .services .li{
