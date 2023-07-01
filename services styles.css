@@ -17,13 +17,16 @@ html{
 
 .headlogo{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .headlogo img{
+    position: relative;
+    display: flex;
     scale: 0.4;
-    /* width:10vw; */
     padding: 0; 
-    margin: auto;
-    margin-top: -50px;
+    margin: 0;
+    margin-top: -100px;
     margin-bottom: -50px;
 }
 
@@ -108,21 +111,8 @@ a{
         width: 70%;
     }
 
-    .headlogo{
-        margin: 0;
-        margin-left: -115%;
-        margin-top: -50px;
-        margin-bottom: -20px;
-    }
-
     .headlogo img{
-        display: flex;
-        align-items: center;
-        justify-content: center;
         scale: 0.3;
-        padding: 0; 
-        margin: auto;
-        margin-top: -50px;
-        margin-bottom: -50px;
-    }
+    };
+    
 }
