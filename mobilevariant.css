@@ -91,9 +91,9 @@
     }
 
     .aboutus{
-        width: 100%;
+        width: auto;
         overflow: hidden;
-        
+        text-align: center;
     }
 
     .aboutus p{
