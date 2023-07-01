@@ -33,6 +33,7 @@ body{
 html{
     /* background-color: rgb(182, 176, 176); */
     background-color: rgb(89, 54, 106);
+    scroll-behavior: smooth;
 }
 
 a{
