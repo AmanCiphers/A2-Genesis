@@ -5,6 +5,7 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Tilt Prism', cursive; 
 font-family: 'Poppins', sans-serif;*/
 
+
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +16,8 @@ font-family: 'Poppins', sans-serif;*/
 
 
 body{
-    width: 100%;
+    width: auto;
+    height: auto;
 }
 
 
@@ -32,8 +34,9 @@ body{
   
 html{
     /* background-color: rgb(182, 176, 176); */
-    background-color: rgb(89, 54, 106);
+    background-color: rgb(88, 64, 100);
     scroll-behavior: smooth;
+    resize: both;
 }
 
 a{
@@ -155,9 +158,10 @@ a{
     margin: auto auto auto 25vw;
     position: relative;
     bottom: 850px;
-    left: 400px;
+    width:800px ;
+    margin-left: 50vw;
     box-shadow: 0px 0px 70px;
-    
+    /* overflow: hidden; */
 }
 
 
